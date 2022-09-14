@@ -16,12 +16,11 @@ const HEADERS = [
 ];
 
 const AccountsTable = ({ accounts, loading }: TableData) => {
-  if (!loading && (!accounts || accounts.length === 0))
-    return <div>No data received</div>;
+  if (!loading && accounts.length === 0) return <div>No data received</div>;
 
   const createTableRows = () => {
-    return accounts.map(({ id, name, currency, profitLoss, accountType }) => (
-      <tr key={id} className={styles.table__row}>
+    return accounts.map(({ _id, name, currency, profitLoss, accountType }) => (
+      <tr key={_id} className={styles.table__row}>
         <td>{name}</td>
         <td>
           {currency} {profitLoss}

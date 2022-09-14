@@ -1,6 +1,6 @@
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import styles from "./Table.module.css";
+import styles from "./AccountsTable.module.css";
 
 export const createSkeletonRows = (rowsNum: number) => {
   return Array(rowsNum)
