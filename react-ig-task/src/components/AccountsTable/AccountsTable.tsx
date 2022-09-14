@@ -1,5 +1,5 @@
 import { Account } from "../../types/Accounts";
-import styles from "./Table.module.css";
+import styles from "./AccountsTable.module.css";
 import { createSkeletonRows } from "./utils";
 
 export interface TableData {
