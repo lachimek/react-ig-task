@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
-import { Account } from "../types/Accounts";
-import { AccountType } from "../types/AccountTypes";
+import { Account } from "../types/Account";
+import { AccountType } from "../types/AccountType";
 
 const ACC_URL = "https://recruitmentdb-508d.restdb.io/rest/accounts";
 const ACC_TYPES_URL = "https://recruitmentdb-508d.restdb.io/rest/accounttypes";

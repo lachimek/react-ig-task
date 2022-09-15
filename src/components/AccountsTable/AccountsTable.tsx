@@ -1,4 +1,4 @@
-import { Account } from "../../types/Accounts";
+import { Account } from "../../types/Account";
 import styles from "./AccountsTable.module.css";
 import { createSkeletonRows } from "./utils";
 

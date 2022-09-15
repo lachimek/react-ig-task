@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { AccountsTable } from "../components/AccountsTable";
-import { Account } from "../types/Accounts";
+import { Account } from "../types/Account";
 
 const CORRECT_TABLE_DATA: Account[] = [
   {
